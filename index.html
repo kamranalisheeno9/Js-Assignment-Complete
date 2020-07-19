@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+</head>
+<style>
+    label {
+        width: 200px;
+        font-weight: 700;
+    }
+    
+</style>
+
+<body>
+    <!-- **** Chapter 42-48 ****   Task 1 **** -->
+
+    <!-- <a style="font-size: 30px;" href="" id="link" onclick="link()">Link</a> -->
+
+
+    <!-- **** Chapter 42-48 ****   Task 2 **** -->
+
+
+    <!-- <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+            <img onclick="image()" style="cursor: pointer;" src="images/iphone 11 pro.jpg" width="200px" alt="">
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+            <img onclick="image()" style="cursor: pointer;" src="images/iphone x.jpg" width="300px" alt="">
+            
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+            <img onclick="image()" style="cursor: pointer;" src="images/oppo-reno-2-pakistan-priceoye-16q5r.jpg" width="220px" alt="">
+            
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+            <img onclick="image()" style="cursor: pointer;" src="images/samsung-galaxy-s20.jpg" width="280px" alt="">
+            
+        </div>
+    </div> -->
+
+    <!-- **** Chapter 42-48 ****   Task 4 **** -->
+
+    <!-- <img src="images/samsung-galaxy-s20.jpg"  id="s20" width="300px" onmouseover="imgSwap('s20','images/iphone x.jpg' )" onmouseout="imgSwap('s20','images/samsung-galaxy-s20.jpg' )" alt="">   -->
+
+    <!-- **** Chapter 42-48 ****   Task 5 **** -->
+
+    <!-- <div class="container" style="text-align: center; margin-top: 5%;">
+    <h1 id="inc" style="font-size: 70px !important;">0</h1>
+      <button onclick="counterInc()">
+        Inc
+      </button>
+      <button onclick="counterDec()">
+        Dec
+    </button>
+    <button onclick="counterReset()">
+        Reset
+    </button>
+</div> -->
+
+
+    <!-- **** Chapter 49-52 ****   Task 1 **** -->
+    <!-- 
+      <div class="row justify-content-around "     >
+        <div class="col-xl-4" style="background-color: rgba(0, 0, 0, 0.342); padding: 20px;">
+      <form action="#">
+          <label for="">First Name</label>
+        <input type="text" name="" id="name" required><br>
+        <label for="">Last Name</label>
+        <input type="text" id="last-name"><br>
+        <label for="">Email</label>
+        <input type="email" id="email" required><br>
+        <label for="">Gender</label>
+        <input id="gender" onclick="genderName(this.value)" type="radio" name="gender" value="Male" >
+        Male
+        <input type="radio" onclick="genderName(this.value)" id="gender" name="gender" value="Female">
+       Female
+        <br>
+        <label for="">Phone Number</label>
+        <input type="tel" id="number" required>
+         <input onclick="getFormValue()"  type="submit" value="Sign Up">
+    </form>
+</div>
+<div class="col-xl-4" style="background-color: lemonchiffon; width: fit-content; padding: 20px;">
+<p style="font-size: 20px;" id="div-value"></p>
+</div>
+</div> -->
+
+    <!-- **** Chapter 49-52 ****   Task 2 **** -->
+
+    <!-- <div class="container" style="width: 400px;">
+        <img src="images/samsung-galaxy-s20.jpg" width="400px" alt="">
+        <h3 style="text-align: center;">Specification</h3>
+        <p id="text">NETWORK	Technology	
+            GSM / CDMA / HSPA / EVDO / LTE
+            LAUNCH	Announced	2020, February 11
+            Status	Available. Released 2020, March 06
+            BODY	Dimensions	151.7 x 69.1 x 7.9 mm (5.97 x 2.72 x 0.31 in)
+            Weight	163 g (5.75 oz)
+            <a id="readmore" href="JavaScript:void(0)" onclick="readMore()">Read More</a>
+             </p>
+            <p id="details" style="display: none;">NETWORK	Technology	
+                GSM / CDMA / HSPA / EVDO / LTE
+                LAUNCH	Announced	2020, February 11
+                Status	Available. Released 2020, March 06
+                BODY	Dimensions	151.7 x 69.1 x 7.9 mm (5.97 x 2.72 x 0.31 in)
+                Weight	163 g (5.75 oz)
+                Build	Glass front (Gorilla Glass 6), glass back (Gorilla Glass 6), aluminum frame
+                SIM	Single SIM (Nano-SIM and/or eSIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)
+                     Samsung Pay (Visa, MasterCard certified)
+                IP68 dust/water resistant (up to 1.5m for 30 mins)
+                DISPLAY	Type	Dynamic AMOLED 2X capacitive touchscreen, 16M colors
+                Size	6.2 inches, 93.8 cm2 (~89.5% screen-to-body ratio)
+                Resolution	1440 x 3200 pixels, 20:9 ratio (~563 ppi density)
+                Protection	Corning Gorilla Glass 6
+                     HDR10+
+                Always-on display
+                120Hz@FHD/60Hz@QHD refresh rate
+                PLATFORM	OS	Android 10, One UI 2
+                Chipset	Exynos 990 (7 nm+) - Global
+                Qualcomm SM8250 Snapdragon 865 (7 nm+) - USA
+                CPU	Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55) - Global
+                Octa-core (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585) - USA
+                GPU	Mali-G77 MP11 - Global
+                Adreno 650 - USA
+                MEMORY	Card slot	microSDXC (uses shared SIM slot)
+                Internal	128GB 8GB RAM
+                     UFS 3.0
+                MAIN CAMERA	Triple	12 MP, f/1.8, 26mm (wide), 1/1.76", 1.8µm, Dual Pixel PDAF, OIS
+                64 MP, f/2.0, 29mm (telephoto), 1/1.72", 0.8µm, PDAF, OIS, 1.1x optical zoom, 3x hybrid zoom
+                12 MP, f/2.2, 13mm (ultrawide), 1.4µm, Super Steady video
+                Features	LED flash, auto-HDR, panorama
+                Video	8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS & OIS
+                SELFIE CAMERA	Dual	10 MP, f/2.2, 26mm (wide), 1/3.2", 1.22µm, Dual Pixel PDAF
+                Features	Dual video call, Auto-HDR
+                Video	4K@30/60fps, 1080p@30fps
+                SOUND	Loudspeaker	Yes, with stereo speakers
+                3.5mm jack	No
+                     32-bit/384kHz audio
+                </p>
+    </div>
+ -->
+
+
+    
+ 
+ <!-- **** Chapter 49-52 ****   Task 3 **** -->
+
+
+
+    <!-- **** Chapter 53-58 ****   Task 1 **** -->
+  
+    <!-- <div  class="container" >
+        <img onclick="imgChange(this)"  width="200px" src="images/iphone 11 pro.jpg" alt="">
+        <img onclick="imgChange(this)" width="210px" src="images/iphone x.jpg" alt="">
+        <img onclick="imgChange(this)" width="200px" src="images/oppo-reno-2-pakistan-priceoye-16q5r.jpg" alt="">
+        <img onclick="imgChange(this)" width="230px" src="images/samsung-galaxy-s20.jpg" alt="">
+
+    </div>
+<div id="show" onclick="hide()" class="container-fluid" style="background-color: rgba(0, 0, 0, 0.151); display: none; height:100vh ; text-align: center;position: absolute; top: 0%; left: 0%;">
+    <img id="img" style="width: 350px; position: absolute; top: 25%; left: 30%;" width="500px" src="images/samsung-galaxy-s20.jpg" alt="">
+
+</div> -->
+
+
+    <!-- **** Chapter 53-58 ****   Task 1 **** -->
+<!-- 
+    <div class="container">
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus impedit id quas alias, quis, quos hic magnam sunt dolor consequuntur quidem reprehenderit dicta nihil ipsum rem expedita tempora eum aspernatur.</p>
+        <button onclick="zoomin()" class="btn" style="font-weight: 900;">Zoom in (+)</button>
+        <button onclick="zoomout()"  class="btn" style="font-weight: 900;">Zoom out (-)</button>
+
+    </div> -->
+
+
+
+    <!-- **** Chapter 58-67 ****   Task 1  **** -->
+<!-- 
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" />
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+        </div>
+        <div id="main-content" class="content">
+        <p class="render"> First Name : Alex</p>
+        <p class="render" id="lastName">Last Name: Bank</p>
+        <p class="render"> Email : alexbank@example.com</p>
+        <p class="render"> Country : Pakistan </p>
+        <p class="render"> contact : +92 300 1234567</p>
+        </div>
+        </div>
+        
+ -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
