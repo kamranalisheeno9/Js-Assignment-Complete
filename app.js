@@ -1481,26 +1481,34 @@
 
 
 
-//       **** Chapter 42-48 ****   Task 1 ****
+//       **** Chapter 43-48 ****   Task 1 ****
 
 // function link(){
 //     alert("Welcome To our Store")
 // }
 
-//       **** Chapter 42-48 ****   Task 2 ****
+//       **** Chapter 43-48 ****   Task 2 ****
 
 // function image(){
 //     alert("Thanks For Purchasing")
 // }
+//       **** Chapter 43-48 ****   Task 3 ****
 
-//       **** Chapter 42-48 ****   Task 4 ****
+// function table(rowValue){
+//     rowValue.parentNode.parentNode.remove()
+//     console.log(rowValue.parentNode.parentNode)
+// }
+
+
+
+//       **** Chapter 43-48 ****   Task 4 ****
 
 // function imgSwap(id,src){
 // var idName=document.getElementById(id)
 // idName.src =src
 // }
 
-//       **** Chapter 42-48 ****   Task 5 ****
+//       **** Chapter 43-48 ****   Task 5 ****
 
 // var increase=document.getElementById("inc")
 // num=0
@@ -1520,8 +1528,8 @@
 
 // var gender=document.getElementById("gender")
 
-// function genderName(gend){
-//     gender.value=gend
+// function genderName(gender_name){
+//     gender.value=gender_name
 
 // }
 
