@@ -1472,11 +1472,66 @@
 
 //       **** Chapter 38-42 ****   Task 7 ****
 
+
+
 //       **** Chapter 38-42 ****   Task 8 ****
+
+// var distance=+prompt("Enter The Distance in Km")
+// function inMeter(distanceVal){
+//     distanceVal=distance
+//     var meter=distanceVal*1000
+//     document.write("In meter " + meter +"<br>")
+// }
+// function inCentieter(distanceVal){
+//     distanceVal=distance
+//     var centimeter=distanceVal*100000
+//     document.write("In Centimeter " + centimeter +"<br>")
+// }
+
+// function inFeets(distanceVal){
+//     distanceVal=distance
+//     var feets=distanceVal*3280
+//     document.write("In Feets " + feets +"<br>")
+// }
+// function inInches(distanceVal){
+//     distanceVal=distance
+//     var inches=distanceVal*39370
+//     document.write("In Inches " + inches +"<br>")
+// }
+
+// inMeter()
+// inCentieter()
+// inFeets()
+// inInches()
 
 //       **** Chapter 38-42 ****   Task 9 ****
 
+// function overtimePay(){
+// var hoursInput=+prompt("Enter total hours worked")
+// var hours=hoursInput.toFixed(0)
+// hours=Math.floor(hoursInput)
+
+// if(hours>40){
+//     var overtimeHour=hours-40
+//     var overtimePay=overtimeHour*12
+//     document.write("Overtime Pay is: "+overtimePay)
+// }
+// }
+// overtimePay()
+
 //       **** Chapter 38-42 ****   Task 10 ****
+
+    // function currency(){
+    //     var amount=+prompt("Enter Amount in Hundreds")
+    //     var hundred=amount/100
+    //     var newHund=Math.floor(hundred)
+    //     var fifty=(amount - newHund*100)/50
+    //     var newfif=Math.floor(fifty)
+    //     var tens=(amount - newHund*100 - newfif*50)/10
+    //     var newTen=Math.floor(tens)
+    //     document.write("You Have "+newHund+" notes of hundred and "+newfif+" notes of fifty and "+tens+" notes of ten.")
+    // }
+    // currency()
 
 
 
@@ -1559,11 +1614,6 @@
 // }
 
 //  **** Chapter 49-52 ****   Task 3 ****
-
-
-
-
-
 
 
 //  **** Chapter 53-58 ****   Task 1 ****
